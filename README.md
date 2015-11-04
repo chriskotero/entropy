@@ -1,6 +1,6 @@
 # Entropy calculator and random number generator
-# Christiane Kotero
-# The goal of this lab was to create a truly "random" random number generator
+Christiane Kotero
+The goal of this lab was to create a truly "random" random number generator
 
 
 I generated random numbers by first seeding a key using the C library function clock(). I took the nano seconds of # the time. I then bit shifted this number by one digit left.
